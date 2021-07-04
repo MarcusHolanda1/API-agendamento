@@ -3,6 +3,17 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.1'
 
+gem 'rack-cors'
+# The CORS spec allows web applications to make cross domain AJAX calls without using workarounds such as JSONP. See Cross-domain Ajax with Cross-Origin Resource Sharing
+
+gem 'rack-attack'
+#protege a API
+
+gem 'devise'
+#autenticação
+gem 'simple_token_authentication', '~> 1.0'
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.6'
 # Use sqlite3 as the database for Active Record
