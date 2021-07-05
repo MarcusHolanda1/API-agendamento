@@ -13,6 +13,8 @@ gem 'devise'
 #autenticação
 gem 'simple_token_authentication', '~> 1.0'
 
+gem 'active_model_serializers', '~> 0.10.0'
+#O Active Model Serializers é uma gem do rails que permite que seja gerado um serializer para formatar como será nossa resposta JSON.
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.6'
